@@ -1,0 +1,20 @@
+.navbar {
+
+        background-color: rgba(255, 255, 255, 0.1); /* Adjust the last value for opacity */
+
+}
+
+.navbar-brand {
+    color: #fff; /* Set text color */
+}
+
+.sec-1 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/assects/section-1.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+}
