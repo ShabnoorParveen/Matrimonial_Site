@@ -1,8 +1,10 @@
+
+
+
 .navbar {
-
-        background-color: rgba(255, 255, 255, 0.1); /* Adjust the last value for opacity */
-
-}
+        background-color: rgba(255, 255, 255, 0.5); /* Adjust the last value for opacity 
+    } 
+ 
 
 .navbar-brand {
     color: #fff; /* Set text color */
@@ -11,10 +13,37 @@
 .sec-1 {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('/assects/section-1.jpg'); 
+    background-image: url('/assects/sec1.jpeg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     height: 80vh;
 }
+
+.sec-3-happy-stories {
+    margin-bottom: 5rem; /* Adjust as needed */
+  }
+
+.sec-4-aboutMetrimonia{
+    background: linear-gradient(to bottom right, #6e1d52, #9e0b33);
+    /* For older browsers that don't support gradients */
+    background: -webkit-linear-gradient(to bottom right, #6e1d52, #9e0b33);
+    /* For some older Firefox versions */
+    background: -moz-linear-gradient(to bottom right, #6e1d52, #9e0b33);
+    /* For Internet Explorer (<=9) */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6e1d52', endColorstr='#9e0b33', GradientType=1);
+  
+    height:20rem;
+    
+}
+
+.tilt-on-hover {
+    transition: transform 0.3s;
+  }
+  
+  .tilt-on-hover:hover {
+    transform: rotate(15deg);
+  }
+
+  
