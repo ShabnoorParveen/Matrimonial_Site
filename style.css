@@ -1,14 +1,13 @@
-
-
-
 .navbar {
-        background-color: rgba(255, 255, 255, 0.5); /* Adjust the last value for opacity 
+        background-color: rgba(251, 228, 228, 0.604); 
+        background-color: #e3f2fd;
+         
     } 
  
 
-.navbar-brand {
-    color: #fff; /* Set text color */
-}
+/* .navbar-brand {
+    color: #fff; 
+} */
 
 .sec-1 {
     margin: 0;
@@ -38,6 +37,7 @@
     
 }
 
+/*image tilt hover*/
 .tilt-on-hover {
     transition: transform 0.3s;
   }
@@ -46,4 +46,14 @@
     transform: rotate(15deg);
   }
 
-  
+
+  /*sec5 */
+  :root {
+    --gradient-start: #FF8C00; /* Default start color */
+    --gradient-end: #FF4C00; /* Default end color */
+  }
+
+  .sec-5-yourStory {
+    background-image: linear-gradient(var(--gradient-start), var(--gradient-end));
+    height:10rem;
+  }

@@ -21,7 +21,39 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+        <img
+        src="assects/logo2.png"
+        alt="Logo"
+        width="60"
+        height="44"
+        class="d-inline-block align-text-top"
+      />
+        <a class="navbar-brand" href="#">Matrimonia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+          <form class="d-flex" role="">
+            <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-language fa-2xl" style="color: #f10920"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
@@ -32,7 +64,15 @@
             class="d-inline-block align-text-top"
           />
           Matrimonia
-        </a>
+        </a>      
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+            </li>
+          </ul>
         <div class="ms-auto" id="google_translate_element"></div>
         <script
           type="text/javascript"
@@ -43,7 +83,7 @@
           <i class="fa-solid fa-language fa-2xl" style="color: #f10920"></i>
         </button>
       </div>
-    </nav>
+    </nav> -->
     <!-- navbar ends   -->
 
     <section class="sec-1"></section>
@@ -54,8 +94,8 @@
         Genuine Profiles | Safe & Secure | Detailed Family Information
       </h4>
 
-      <div class="row">
-        <div class="col-sm-8 text-start">
+      <div class="row container">
+        <div class="col-sm-6 text-start">
           <div class="card mb-3 border-0" style="max-width: 540px">
             <div class="row g-0">
               <div class="col-md-4 ps-5">
@@ -124,10 +164,11 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="card border-0" style="width: 18rem">
-            <img src="/assects/sec-3-img.png" class="card-img-top tilt-on-hover me-5" alt="..." " />
-          </div>
+        <div class="col-sm-6 pe-5">
+          <!-- <div class="card border-0" style="width: 18rem"> -->
+            <img src="/assects/sec-3-img.png" class="card-img-top tilt-on-hover
+            me-5 pe-5" alt="..." " />
+          <!-- </div> -->
         </div>
       </div>
     </section>
@@ -390,22 +431,43 @@
         </p>
       </div>
     </section>
+    
+    <section class="sec-5-yourStory  text-center">
+      <h1 class="">Your story is waiting to happen! <button type="button" class="btn btn-outline-light">Light</button></h1>
+    </section>
 
     <footer class="container">
-      <hr>
-        <div class="row ">
-          <div class="col-sm-6"><small class="text-muted">
-            This website is strictly for matrimonial purpose only and not a dating website.
-            <br>
-Copyright © 2023. All rights reserved.
-          </small></div>
-          
-          <div class="col-sm-6">
-            Follow Us On:
-            <i class="fa-brands fa-facebook fa-xl me-3 mt-3 ms-3  " style="color: #4069b0;"></i> <i class="fa-brands fa-twitter fa-xl me-3 mt-3" style="color: #49c4f8;"></i> <i class="fa-brands fa-instagram fa-xl me-4 mt-3" style="color: #a70251;"></i>
-          </div>
+      <hr />
+      <div class="row">
+        <div class="col-sm-4">
+          <small class="text-muted">
+            This website is strictly for matrimonial purpose only and not a
+            dating website.
+            <br />
+            Copyright © 2023. All rights reserved.
+          </small>
         </div>
-      <hr>
+
+        <div class="col-sm-4 text-muted">
+         <small>Follow Us On:</small> 
+          <i
+            class="fa-brands fa-facebook fa-xl me-3 mt-3 ms-3"
+            style="color: #4069b0"
+          ></i>
+          <i
+            class="fa-brands fa-twitter fa-xl me-3 mt-3"
+            style="color: #49c4f8"
+          ></i>
+          <i
+            class="fa-brands fa-instagram fa-xl me-4 mt-3"
+            style="color: #a70251"
+          ></i>
+        </div>
+        <div class="col-sm-4">
+          <small class="text-muted">Mail Us on: abc@gmail.com <br> Customer Support: 1234560789 </small>
+        </div>
+      </div>
+      <hr/>
     </footer>
 
     <script
