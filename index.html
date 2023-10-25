@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matrimonia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sometype+Mono&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/style.css" />
     <link
       rel="stylesheet"
@@ -18,39 +24,46 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sometype+Mono&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container-fluid">
         <img
-        src="assects/logo2.png"
-        alt="Logo"
-        width="60"
-        height="44"
-        class="d-inline-block align-text-top"
-      />
-        <a class="navbar-brand" href="#">Matrimonia</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          src="assects/logo2.png"
+          alt="Logo"
+          width="60"
+          height="44"
+          class="d-inline-block align-text-top"
+        />
+        <a class="navbar-brand" href="index.html">Matrimonia</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
             </li> -->
           </ul>
           <form class="d-flex" role="">
-            <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-language fa-2xl" style="color: #f10920"></i></button>
+            <button class="btn btn-outline-light" type="submit">
+              <i class="fa-solid fa-language fa-2xl" style="color: #f10920"></i>
+            </button>
           </form>
         </div>
       </div>
@@ -169,11 +182,24 @@
         </div>
         <div class="col-sm-6 pe-5">
           <!-- <div class="card border-0" style="width: 18rem"> -->
-            <img src="/assects/sec-3-img.png" class="card-img-top tilt-on-hover
-            me-5 pe-5" alt="..." " />
+          <img src="/assects/sec-3-img.png" class="card-img-top tilt-on-hover
+          me-5 pe-5" alt="..." " />
           <!-- </div> -->
         </div>
       </div>
+    </section>
+
+    <section class="sec-5-yourStory text-center text-light">
+      <h1 class="py-5">
+        Your story is waiting to happen!
+        <button
+          id="changeGradient"
+          type="button" 
+          class="btn btn-outline-light btn-lg rounded-0 ms-3"
+        >
+          Share With Us
+        </button>
+      </h1>
     </section>
 
     <section class="sec-3-happy-stories container text-center mt-5 mb-5">
@@ -434,10 +460,6 @@
         </p>
       </div>
     </section>
-    
-    <section class="sec-5-yourStory text-center text-light">
-      <h1 class="py-5">Your story is waiting to happen! <button type="button" class="btn btn-outline-light btn-lg rounded-0 ms-3">Share With Us</button></h1>
-    </section>
 
     <footer class="container">
       <hr />
@@ -452,7 +474,7 @@
         </div>
 
         <div class="col-sm-4 text-muted">
-         <small>Follow Us On:</small> 
+          <small>Follow Us On:</small>
           <i
             class="fa-brands fa-facebook fa-xl me-3 mt-3 ms-3"
             style="color: #4069b0"
@@ -467,17 +489,20 @@
           ></i>
         </div>
         <div class="col-sm-4">
-          <small class="text-muted">Mail Us on: abc@gmail.com <br> Customer Support: 1234560789 </small>
+          <small class="text-muted"
+            >Mail Us on: abc@gmail.com <br />
+            Customer Support: 1234560789
+          </small>
         </div>
       </div>
-      <hr/>
+      <hr />
     </footer>
 
+    <script src="index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-    <script src="index.js"></script>
   </body>
 </html>

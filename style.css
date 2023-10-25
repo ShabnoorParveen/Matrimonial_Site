@@ -1,3 +1,7 @@
+body{
+  font-family: 'Inter', sans-serif;
+font-family: 'Sometype Mono', monospace;
+}
 
 .navbar {
         background-color: rgba(251, 228, 228, 0.604); 
